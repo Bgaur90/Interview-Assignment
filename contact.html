@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Page</title>
+    <link rel="stylesheet" href="./src/scss/main.css">
+</head>
+<body>
+    <section class="user_page">
+        <div class="user_form-container">
+            <div class="user_info">
+                <div class="user_form-title">
+                    <h1 class="h1-b">Contact Us</h1>
+                    <p class="body-r">If you have any question or need help, please fill out the form below. We do our best to respond within 1 business day.</p>
+                </div>
+            </div>
+            <form class="form_user" action="#">
+                <div class="form-input-group">
+                    <div><input class="body-r form-input radius-50" type="text" name="name" placeholder="Name*"></div>
+                    <div><input class="body-r form-input radius-50" type="text" name="email" placeholder="Email*"></div>
+                    <div><input class="body-r form-input radius-50" type="text" name="contact" placeholder="Contact Number*">
+                    </div>
+                    <div><input class="body-r form-input radius-50" type="text" name="message" placeholder="Message*"></div>
+                </div>
+                <button type="submit" class="base-button radius-100 body-b">Submit</button>
+            </form>
+        </div>
+    </section>
+    <div class="modal">
+        <div class="modal_alert radius-100">
+            <div class="modal_alert-text">
+                <svg>
+                    <use xlink:href="src/assets/icons/icon.svg#info_alert"></use>
+                </svg>
+                <h2 class="h2-b">Information Alert !</h2>
+                <p class="body-r">File processing is in progress. Once completed, you will be able to submit queries for this file as well.</p>
+            </div>
+            <button class="base-button radius-100 body-b close">Close</button>
+        </div>
+    </div>
+</body>
+</html>
